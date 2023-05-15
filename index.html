@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="test.js"></script>
+  <style>
+   
+    input{
+      border-radius: 25%;
+      background-color: rgb(67, 97, 47);
+    }
+    input{
+      color: white;
+    }
+    input::placeholder{
+      color: rgb(181, 181, 204);
+    }
+    button{
+      color: rgb(181, 181, 204);
+      background-color: rgba(25, 0, 255, 0.199);
+      border-radius: 30%;
+      margin-top: 3px;
+}
+
+  </style>
+ 
+ 
+  <title>Calcule Moyenn </title>
+</head>
+<body>
+ 
+  Note Regional :<div><input type="text" placeholder="Not Regional" id="numRegional"></div>
+  Note Classe   :<div><input type="text" placeholder="Not Classe" id="numClass"></div>
+  Note National :<div><input type="text" placeholder="Not National" id="numNational"></div>
+  <div><button onclick="Calcule()" >Calcule</button></div>
+  Note Moyenne :<label id="result"></label><br>
+
+
+</body>
+</html>
